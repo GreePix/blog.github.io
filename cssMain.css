@@ -1,0 +1,95 @@
+body{
+	background-color:#1f1f2f;
+	background-image: linear-gradient(155deg, #101020, #1f1f2f, #3f1f7f, #1f1a2f, #1f1f2f)}
+
+html{
+	width:100%;
+	height:100%;}
+
+h1{
+	line-height: 0.6;
+	text-shadow:2px 2px 2px black;
+	color:#ffffff;
+	font-family:wellfleet;}
+p{
+	font-family:wellfleet;
+	color:#ffffff;}
+
+.main{
+	height:790px;}
+
+.window{
+	/*Text config*/
+	text-shadow:2px 2px 2px green;
+	font-family:wellfleet;
+	/*Changing position*/
+	margin-top:40px;
+	margin-left:25px;
+	/*Colors*/
+	color:#ffffff;
+	background-color:#4f4f9f;
+	/*Setting size*/
+	float:left;
+	width:780px;
+	padding:8px 8px;
+	/*Border and shadow*/
+	border:4px solid #afafaf;
+	border-radius: 20px;
+	box-shadow:8px 8px 12px black;}
+
+.gameLeft{
+	float:left;
+	padding:4px 4px;
+	color:#ffffff;
+	background-color:#4f4f9f;
+	border:4px solid #afafaf;
+	border-radius: 10px;}
+	
+.gameHolder{
+	border:4px solid #404040;
+	border-radius: 10px;
+	background-color:black;
+	width:640px;
+	height:460px;
+	padding:4px 2px;}
+	
+.gameRight{
+	float:right;}
+
+.title{
+	background-color:#4f4f9f;
+	text-align:center;
+	border:4px solid #afafaf;
+	border-radius:10px;
+	width:83%;
+	box-shadow:8px 8px 12px}
+
+.leftColumn{
+	float:left;
+	width:52px;
+	height:248px;
+	padding:6px 6px;
+	border: 4px solid #afafaf;
+	border-radius: 10px;
+	background-color:#1f1f2f;
+	box-shadow:8px 8px 12px;}
+
+.button{
+	display:block;
+	padding:10px 10px;
+	border-radius: 6px;
+	margin-top:5px;}
+
+.button:hover{
+	border: 2px solid #ffffff;
+	padding:8px 8px;
+	background-color:#4f4f9f;}
+
+.footer{
+	background-color:#ffffff;
+	border:4px solid #afafaf;
+	width:83%;}
+
+.filterWhite{
+	/*3rd party generated filter to change image color to white*/
+	filter: invert(99%) sepia(97%) saturate(2%) hue-rotate(264deg) brightness(112%) contrast(100%);}
